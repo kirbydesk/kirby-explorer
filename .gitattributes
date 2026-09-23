@@ -1,0 +1,5 @@
+# Keeps housekeeping out of the zip GitHub builds from a tag: what people
+# download should be the plugin folder, nothing else.
+/.github        export-ignore
+/.gitattributes export-ignore
+/docs           export-ignore

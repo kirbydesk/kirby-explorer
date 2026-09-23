@@ -1,0 +1,25 @@
+# Turns a pushed tag into a release on GitHub. release.sh pushes the tag,
+# this makes the entry – with the text from RELEASE_NOTES.md, which the
+# script copies in alongside it.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish the release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ github.ref_name }}
+          body_path: .github/RELEASE_NOTES.md
+          # no assets: the source zip GitHub attaches is the plugin folder
+          fail_on_unmatched_files: false

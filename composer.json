@@ -1,0 +1,39 @@
+{
+  "name": "kirbydesk/kirby-explorer",
+  "description": "Stay organized — see every file and page of your site, with usage, duplicates and stats.",
+  "type": "kirby-plugin",
+  "keywords": [
+    "kirby",
+    "kirby-plugin",
+    "kirby-cms",
+    "kirby5",
+    "panel",
+    "panel-area",
+    "files",
+    "file-manager",
+    "media",
+    "pages",
+    "overview",
+    "duplicates",
+    "unused-files",
+    "translations",
+    "multilanguage",
+    "statistics",
+    "bulk-edit"
+  ],
+  "license": "proprietary",
+  "homepage": "https://kirbydesk.com/explorer",
+  "authors": [
+    {
+      "name": "Christian Fickinger",
+      "email": "hello@kirbydesk.com",
+      "homepage": "https://kirbydesk.com"
+    }
+  ],
+  "extra": {
+    "installer-name": "kirby-explorer"
+  },
+  "require": {
+    "getkirby/composer-installer": "^1.2"
+  }
+}
