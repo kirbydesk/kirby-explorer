@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Gelicentieerd voor {domain}',
+	'explorer.license.name' => 'Propriëtair',
 	'explorer.license.active.label' => 'Gelicentieerd',
-	'explorer.license.missing' => 'Nog niet geactiveerd',
 	'explorer.license.missing.label' => 'Nu activeren',
-	'explorer.license.local' => 'Lokaal domein – activering niet nodig',
 	'explorer.license.local.label' => 'Lokaal',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Bestanden',

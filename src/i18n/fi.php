@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Lisensoitu verkkotunnukselle {domain}',
+	'explorer.license.name' => 'Omisteinen',
 	'explorer.license.active.label' => 'Lisensoitu',
-	'explorer.license.missing' => 'Ei vielä aktivoitu',
 	'explorer.license.missing.label' => 'Aktivoi nyt',
-	'explorer.license.local' => 'Paikallinen verkkotunnus – aktivointia ei tarvita',
 	'explorer.license.local.label' => 'Paikallinen',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Tiedostot',

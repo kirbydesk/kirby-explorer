@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => '{domain} için lisanslı',
+	'explorer.license.name' => 'Tescilli',
 	'explorer.license.active.label' => 'Lisanslı',
-	'explorer.license.missing' => 'Henüz etkinleştirilmedi',
 	'explorer.license.missing.label' => 'Şimdi etkinleştir',
-	'explorer.license.local' => 'Yerel alan adı – etkinleştirme gerekmez',
 	'explorer.license.local.label' => 'Yerel',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Dosyalar',

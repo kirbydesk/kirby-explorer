@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Licencelve a következőhöz: {domain}',
+	'explorer.license.name' => 'Tulajdonosi',
 	'explorer.license.active.label' => 'Licencelve',
-	'explorer.license.missing' => 'Még nincs aktiválva',
 	'explorer.license.missing.label' => 'Aktiválás',
-	'explorer.license.local' => 'Helyi domain – nem kell aktiválni',
 	'explorer.license.local.label' => 'Helyi',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Fájlok',

@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Með leyfi fyrir {domain}',
+	'explorer.license.name' => 'Séreignarleyfi',
 	'explorer.license.active.label' => 'Með leyfi',
-	'explorer.license.missing' => 'Ekki enn virkjað',
 	'explorer.license.missing.label' => 'Virkja núna',
-	'explorer.license.local' => 'Staðbundið lén – engin virkjun nauðsynleg',
 	'explorer.license.local.label' => 'Staðbundið',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Skrár',

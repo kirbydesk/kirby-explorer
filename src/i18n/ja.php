@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => '{domain} のライセンス',
+	'explorer.license.name' => 'プロプライエタリ',
 	'explorer.license.active.label' => 'ライセンス済み',
-	'explorer.license.missing' => 'まだ有効化されていません',
 	'explorer.license.missing.label' => '今すぐ有効化',
-	'explorer.license.local' => 'ローカルドメイン – 有効化は不要です',
 	'explorer.license.local.label' => 'ローカル',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'ファイル',

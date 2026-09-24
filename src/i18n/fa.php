@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'دارای مجوز برای {domain}',
+	'explorer.license.name' => 'اختصاصی',
 	'explorer.license.active.label' => 'دارای مجوز',
-	'explorer.license.missing' => 'هنوز فعال نشده',
 	'explorer.license.missing.label' => 'همین حالا فعال کنید',
-	'explorer.license.local' => 'دامنهٔ محلی – نیازی به فعال‌سازی نیست',
 	'explorer.license.local.label' => 'محلی',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'پرونده‌ها',

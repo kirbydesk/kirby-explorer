@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Licențiat pentru {domain}',
+	'explorer.license.name' => 'Proprietar',
 	'explorer.license.active.label' => 'Licențiat',
-	'explorer.license.missing' => 'Încă neactivat',
 	'explorer.license.missing.label' => 'Activează',
-	'explorer.license.local' => 'Domeniu local – nu e nevoie de activare',
 	'explorer.license.local.label' => 'Local',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Fișiere',

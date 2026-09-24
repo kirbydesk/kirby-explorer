@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Berlisensi untuk {domain}',
+	'explorer.license.name' => 'Proprietary',
 	'explorer.license.active.label' => 'Berlisensi',
-	'explorer.license.missing' => 'Belum diaktifkan',
 	'explorer.license.missing.label' => 'Aktifkan sekarang',
-	'explorer.license.local' => 'Domain lokal – tidak perlu aktivasi',
 	'explorer.license.local.label' => 'Lokal',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Berkas',

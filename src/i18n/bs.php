@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Licencirano za {domain}',
+	'explorer.license.name' => 'Vlasnička',
 	'explorer.license.active.label' => 'Licencirano',
-	'explorer.license.missing' => 'Još nije aktivirano',
 	'explorer.license.missing.label' => 'Aktiviraj',
-	'explorer.license.local' => 'Lokalna domena – aktivacija nije potrebna',
 	'explorer.license.local.label' => 'Lokalno',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Datoteke',

@@ -30,7 +30,7 @@ $license = function ($plugin) {
     if ($activation->isActive() === true) {
         return new \Kirby\Plugin\License(
             plugin: $plugin,
-            name: tt('explorer.license.active', null, ['domain' => $domain]),
+            name: t('explorer.license.name'),
             link: 'https://github.com/kirbydesk/kirby-explorer',
             status: \Kirby\Plugin\LicenseStatus::from([
                 'value' => 'active',
@@ -46,7 +46,7 @@ $license = function ($plugin) {
 
     return new \Kirby\Plugin\License(
         plugin: $plugin,
-        name: t($local ? 'explorer.license.local' : 'explorer.license.missing'),
+        name: t('explorer.license.name'),
         link: 'https://github.com/kirbydesk/kirby-explorer',
         status: \Kirby\Plugin\LicenseStatus::from([
             'value'  => $local ? 'demo' : 'missing',
@@ -127,4 +127,4 @@ Kirby::plugin('kirbydesk/kirby-explorer', [
             },
         ],
     ],
-], version: '0.9.3', license: $license);
+], version: '1.0.0', license: $license);

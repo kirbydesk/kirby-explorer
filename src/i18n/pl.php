@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Licencja dla {domain}',
+	'explorer.license.name' => 'Zastrzeżona',
 	'explorer.license.active.label' => 'Licencjonowane',
-	'explorer.license.missing' => 'Jeszcze nieaktywowane',
 	'explorer.license.missing.label' => 'Aktywuj teraz',
-	'explorer.license.local' => 'Domena lokalna – aktywacja niepotrzebna',
 	'explorer.license.local.label' => 'Lokalnie',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Pliki',

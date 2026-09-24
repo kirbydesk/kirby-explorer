@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Με άδεια για {domain}',
+	'explorer.license.name' => 'Ιδιόκτητη',
 	'explorer.license.active.label' => 'Με άδεια',
-	'explorer.license.missing' => 'Δεν έχει ενεργοποιηθεί ακόμη',
 	'explorer.license.missing.label' => 'Ενεργοποίηση',
-	'explorer.license.local' => 'Τοπικός τομέας – δεν χρειάζεται ενεργοποίηση',
 	'explorer.license.local.label' => 'Τοπικά',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Αρχεία',

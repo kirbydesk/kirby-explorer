@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => '{domain} 라이선스',
+	'explorer.license.name' => '독점',
 	'explorer.license.active.label' => '라이선스됨',
-	'explorer.license.missing' => '아직 활성화되지 않음',
 	'explorer.license.missing.label' => '지금 활성화',
-	'explorer.license.local' => '로컬 도메인 – 활성화가 필요 없습니다',
 	'explorer.license.local.label' => '로컬',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => '파일',

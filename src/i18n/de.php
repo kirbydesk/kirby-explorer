@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Lizenziert für {domain}',
+	'explorer.license.name' => 'Proprietär',
 	'explorer.license.active.label' => 'Lizenziert',
-	'explorer.license.missing' => 'Noch nicht aktiviert',
 	'explorer.license.missing.label' => 'Jetzt aktivieren',
-	'explorer.license.local' => 'Lokale Domain – keine Aktivierung nötig',
 	'explorer.license.local.label' => 'Lokal',
 	'explorer.name' => 'Explorer',
 

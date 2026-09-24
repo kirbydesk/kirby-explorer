@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Licencijuota domenui {domain}',
+	'explorer.license.name' => 'Nuosavybinė',
 	'explorer.license.active.label' => 'Licencijuota',
-	'explorer.license.missing' => 'Dar neaktyvuota',
 	'explorer.license.missing.label' => 'Aktyvuoti',
-	'explorer.license.local' => 'Vietinis domenas – aktyvuoti nereikia',
 	'explorer.license.local.label' => 'Vietinis',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Failai',

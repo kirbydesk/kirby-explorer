@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Licencita por {domain}',
+	'explorer.license.name' => 'Proprieta',
 	'explorer.license.active.label' => 'Licencita',
-	'explorer.license.missing' => 'Ankoraŭ ne aktivigita',
 	'explorer.license.missing.label' => 'Aktivigi nun',
-	'explorer.license.local' => 'Loka retregiono – aktivigo ne necesas',
 	'explorer.license.local.label' => 'Loka',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Dosieroj',

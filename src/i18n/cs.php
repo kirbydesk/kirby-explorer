@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Licencováno pro {domain}',
+	'explorer.license.name' => 'Proprietární',
 	'explorer.license.active.label' => 'Licencováno',
-	'explorer.license.missing' => 'Zatím neaktivováno',
 	'explorer.license.missing.label' => 'Aktivovat',
-	'explorer.license.local' => 'Místní doména – aktivace není potřeba',
 	'explorer.license.local.label' => 'Místní',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Soubory',

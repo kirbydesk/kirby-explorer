@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Лицензирано за {domain}',
+	'explorer.license.name' => 'Собственическа',
 	'explorer.license.active.label' => 'Лицензирано',
-	'explorer.license.missing' => 'Още не е активирано',
 	'explorer.license.missing.label' => 'Активирай',
-	'explorer.license.local' => 'Локален домейн – не е нужна активация',
 	'explorer.license.local.label' => 'Локално',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Файлове',

@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => 'Amb llicència per a {domain}',
+	'explorer.license.name' => 'Propietari',
 	'explorer.license.active.label' => 'Amb llicència',
-	'explorer.license.missing' => 'Encara no activat',
 	'explorer.license.missing.label' => 'Activa ara',
-	'explorer.license.local' => 'Domini local – no cal activació',
 	'explorer.license.local.label' => 'Local',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => 'Fitxers',

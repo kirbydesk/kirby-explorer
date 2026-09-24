@@ -1,9 +1,7 @@
 <?php return [
-	'explorer.license.active' => '已為 {domain} 授權',
+	'explorer.license.name' => '專有',
 	'explorer.license.active.label' => '已授權',
-	'explorer.license.missing' => '尚未啟用',
 	'explorer.license.missing.label' => '立即啟用',
-	'explorer.license.local' => '本機網域 – 不需要啟用',
 	'explorer.license.local.label' => '本機',
 	'explorer.name' => 'Explorer',
 	'explorer.tab.files' => '檔案',
