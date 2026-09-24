@@ -313,7 +313,13 @@ final class Content
 
         $changes->save([$field => $value], $language);
 
-        return ['field' => $field, 'language' => $language];
+        // how many fields differ now, per language – the lists show it as a
+        // badge and cannot work it out for themselves
+        return [
+            'field'    => $field,
+            'language' => $language,
+            'changes'  => $this->changedFields($model),
+        ];
     }
 
     /** Publishes the changes of a file (Kirby validates the fields). */

@@ -15,8 +15,9 @@ Requires **Kirby 5** and **PHP 8.2+**.
 - Speaks every language the panel does – all 34 of them
 - Free to use, with a one-time activation per domain
 
-![Cardlets view](docs/screenshots/files-cardlets.png)
-*Every file of a Kirby project, grouped by template*
+https://github.com/user-attachments/assets/793da439-325f-4995-9711-2b2aa37a3109
+
+*Four different views — one for every job*
 
 ## Files view
 
@@ -101,7 +102,7 @@ a staging server – the dialog leads to a form at
 [activate.kirbyexplorer.com](https://activate.kirbyexplorer.com). The key is
 then sent by mail, with a link that activates the domain in one click.
 
-To enter a key by hand instead, put it into your `config.php`:
+To enter a key manually instead, put it into your `config.php`:
 
 ```php
 return [
@@ -112,10 +113,18 @@ return [
 A key belongs to one domain and works for that domain alone. Subdomains count
 as their own domain; `www.` does not.
 
+## Found something?
+
+Please open an issue. This repository is generated from a private one on
+every release, so fixes have to be made at the source — a pull request
+here would be gone with the next version. For a translation, the line as
+it should read is enough.
+
 ## License
 
-Free to use, in as many projects as you like, commercial ones included – but
-not open source: the plugin may not be resold, republished or bundled, and the
-activation may not be removed. The full terms are in [LICENSE.md](LICENSE.md).
+Free to use, in as many projects as you like, commercial ones included. The
+source is public, but the license is not an open source one: the plugin may
+not be resold, republished or bundled, and the activation may not be removed.
+The full terms are in [LICENSE.md](LICENSE.md).
 
 © [kirbydesk](https://kirbydesk.com)

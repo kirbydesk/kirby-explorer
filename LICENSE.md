@@ -31,7 +31,9 @@ Only the sections below are binding.
 
 - **"You"** is the individual or company installing or using the plugin. If
   you install it for a client, you are the licensee, not the client.
-- **"We"/"Us"** is Christian Fickinger, kirbydesk, <hello@kirbydesk.com>.
+- **"We"/"Us"** is Christian Fickinger, who publishes as kirbydesk.
+  Contact: <hello@kirbydesk.com>; postal address and further details at
+  <https://kirbydesk.com/imprint>.
 - **"Plugin"** is Kirby Explorer. Its **"Source Code"** is every file
   distributed with it — PHP, JavaScript, CSS and everything else.
 - A **"Website"** is one Kirby project, defined by its domain and root
@@ -124,4 +126,4 @@ effect.
 
 ---
 
-Copyright © 2026 Christian Fickinger, kirbydesk. All rights reserved.
+Copyright © 2026 Christian Fickinger. All rights reserved.

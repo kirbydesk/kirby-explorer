@@ -145,7 +145,7 @@
 	'explorer.activate.manual.submit' => 'Pedir um código de licença',
 	'explorer.activate.done' => 'Este domínio está ativado. Obrigado!',
 	'explorer.activate.link.login' => 'Faça login no painel e abre novamente a link.',
-	'explorer.activate.link.invalid' => 'Este código de licença não pertence a este domínio. Peça um novo em ativate.kirbyexplorer.com.',
+	'explorer.activate.link.invalid' => 'Este código de licença não pertence a este domínio. Peça um novo em activate.kirbyexplorer.com.',
 	'explorer.and' => 'e',
 	'explorer.details.hidden.before' => '{count} campos do tipo',
 	'explorer.details.hidden.after' => 'não são mostrados aqui.',

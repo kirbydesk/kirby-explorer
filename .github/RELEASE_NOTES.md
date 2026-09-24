@@ -1,18 +1,21 @@
-A Finder-like overview of all files and pages of a Kirby site, as its own
-panel area. It answers what the panel itself cannot: where a file lives,
-whether it is used anywhere, whether its content is translated, whether it
-exists twice, and how much space all of it takes.
+A round of fixes, and the wording brought in line with the website.
 
-### What it does
+### Fixed
 
-- Every file and every page in one place, in list, cardlets, cards or edit view
-- Group, sort, filter and search across the whole site
-- Find unused files — checked against fields, structures, blocks and layouts
-- Find duplicates and see what their copies cost in storage
-- Spot missing translations, for pages and for file meta data
-- Edit blueprint fields of many files in one place
-- Statistics on storage, templates, usage and how far content is along
-- Speaks all 34 panel languages
+- The change badge appears in every view at once — it used to show up in the
+  edit view only, and in the others after a reload
+- Duplicates no longer show every file for a moment while they load
+- Column headings are no longer cut off: they are measured in the font they
+  are actually set in, capitals and letter-spacing included
+- The translation indicator in the list view is centred and carries a tooltip
+- One `empty-icon` too many in the files view
+
+### Changed
+
+- Files show their translation state, right next to the file name
+- "Activate by hand" is now "Activate manually" in English; the other 33
+  languages keep their own wording
+- The license link under System → Plugins points to the repository
 
 ### Installation
 
@@ -24,11 +27,6 @@ Requires Kirby 5 and PHP 8.2+.
 
 ### Free, with one activation per domain
 
-The plugin is free. Every public domain is activated once, in a single
-click from the panel — that is how I know where it runs. Local domains are
-never asked. Details are in the readme.
-
-### Why 0.9
-
-Everything here is finished and in daily use. The 1.0 comes once a few
-more projects have run it — if you find something, please open an issue.
+The plugin is completely free. Every public domain is activated once, in a
+single click from the panel; nothing but the domain is sent. Local domains
+are never asked.
