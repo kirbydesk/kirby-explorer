@@ -2,6 +2,15 @@
 
 use Kirby\Cms\App as Kirby;
 
+/**
+ * Kirby 5.1 brought Panel\Ui\Item\FileItem and PageItem, which the two
+ * list views build on. On anything older the plugin would take the whole
+ * panel down with a fatal error, so it stays out of the way instead.
+ */
+if (version_compare(Kirby::version() ?? '0.0.0', '5.1.0', '<') === true) {
+    return;
+}
+
 // Autoload plugin classes (Kirbydesk\Explorer\…)
 spl_autoload_register(function (string $class): void {
     $prefix = 'Kirbydesk\\Explorer\\';
@@ -118,4 +127,4 @@ Kirby::plugin('kirbydesk/kirby-explorer', [
             },
         ],
     ],
-], version: '0.9.2', license: $license);
+], version: '0.9.3', license: $license);

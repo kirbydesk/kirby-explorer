@@ -3,7 +3,7 @@
 A Finder-like overview of **files and pages** of a Kirby project, as its own
 panel area.
 
-Requires **Kirby 5** and **PHP 8.2+**.
+Requires **Kirby 5.1** and **PHP 8.2+**.
 
 ## Main Features
 

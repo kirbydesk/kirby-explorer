@@ -1,12 +1,15 @@
-A small one: the download is easier, and the activation form speaks up
-sooner.
+Housekeeping: the plugin now says what it needs, and says it early.
+
+### Fixed
+
+- On Kirby 5.0 the plugin took the panel down with a fatal error: the two
+  list views build on `Panel\Ui\Item\FileItem`, which arrived in 5.1. It
+  now checks the version and stays out of the way instead
 
 ### Changed
 
-- The release carries a `kirby-explorer.zip` that unpacks as
-  `kirby-explorer` — ready to drop into `site/plugins`, no renaming
-- "Activate manually" opens the form in the panel's language right away,
-  at its own address
+- `composer.json` asks for Kirby 5.1, PHP 8.2 and the sodium extension, so
+  Composer says no before installing rather than leaving a broken panel
 
 ### Installation
 
@@ -14,7 +17,7 @@ sooner.
 
 Or download the zip below and put it into `site/plugins/kirby-explorer`.
 
-Requires Kirby 5 and PHP 8.2+.
+Requires Kirby 5.1 and PHP 8.2+.
 
 ### Free, with one activation per domain
 
