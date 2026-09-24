@@ -1,21 +1,12 @@
-A round of fixes, and the wording brought in line with the website.
-
-### Fixed
-
-- The change badge appears in every view at once — it used to show up in the
-  edit view only, and in the others after a reload
-- Duplicates no longer show every file for a moment while they load
-- Column headings are no longer cut off: they are measured in the font they
-  are actually set in, capitals and letter-spacing included
-- The translation indicator in the list view is centred and carries a tooltip
-- One `empty-icon` too many in the files view
+A small one: the download is easier, and the activation form speaks up
+sooner.
 
 ### Changed
 
-- Files show their translation state, right next to the file name
-- "Activate by hand" is now "Activate manually" in English; the other 33
-  languages keep their own wording
-- The license link under System → Plugins points to the repository
+- The release carries a `kirby-explorer.zip` that unpacks as
+  `kirby-explorer` — ready to drop into `site/plugins`, no renaming
+- "Activate manually" opens the form in the panel's language right away,
+  at its own address
 
 ### Installation
 

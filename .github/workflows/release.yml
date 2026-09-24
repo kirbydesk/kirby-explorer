@@ -14,12 +14,26 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+
+      # The zip GitHub attaches by itself unpacks to kirby-explorer-0.9.1,
+      # which nobody wants under site/plugins. This one carries the folder
+      # under its proper name and always lives at the same address:
+      # /releases/latest/download/kirby-explorer.zip
+      - name: Pack the plugin folder
+        run: |
+          mkdir -p pack/kirby-explorer
+          rsync -a \
+            --exclude '.git' --exclude '.github' --exclude '.gitattributes' \
+            --exclude 'docs' --exclude 'pack' \
+            ./ pack/kirby-explorer/
+          cd pack && zip -qr ../kirby-explorer.zip kirby-explorer
+          cd .. && unzip -l kirby-explorer.zip | tail -3
 
       - name: Publish the release
         uses: softprops/action-gh-release@v2
         with:
           name: ${{ github.ref_name }}
           body_path: .github/RELEASE_NOTES.md
-          # no assets: the source zip GitHub attaches is the plugin folder
-          fail_on_unmatched_files: false
+          files: kirby-explorer.zip
+          fail_on_unmatched_files: true
