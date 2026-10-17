@@ -1,31 +1,10 @@
-The first stable release. Kirby Explorer adds a panel area that shows the
-whole project at once: every file and every page in one list, groupable,
-sortable, searchable — and editable right there.
+The panel now speaks every language the plugin ships with.
 
-### What it does
+### Fixed
 
-- **Files** in four views — list, cardlets, cards and edit. Group them by
-  page, template, type, usage or translation state; sort by any column;
-  search across name, format, template and page
-- **Pages** in the order of the site tree, with status, template and the
-  storage each one takes, the files inside it included
-- **Unused files** at a glance, checked against fields, structures, blocks
-  and layouts — not only against the page they sit in
-- **Duplicates**, and what their copies cost in storage
-- **Missing translations**, for pages and for file meta data
-- **Editing** the blueprint fields of many files or pages, one below the
-  next, saved when you say so
-- **Bulk actions** on any selection: download as a zip, change template or
-  status, delete
-- **Statistics** on storage, templates, usage and how far content and
-  translations are along
-- Light and dark mode, and all 34 panel languages
-
-### Since 0.9.3
-
-- The licence under System → Plugins is always called "Proprietary";
-  whether a domain is activated shows as its status next to it
-- Three translation keys that nothing read any more are gone
+- All 34 translations are loaded. 1.0.0 brought them along but only
+  registered English and German, so every other panel language fell back
+  to English
 
 ### Installation
 

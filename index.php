@@ -127,4 +127,4 @@ Kirby::plugin('kirbydesk/kirby-explorer', [
             },
         ],
     ],
-], version: '1.0.0', license: $license);
+], version: '1.0.1', license: $license);

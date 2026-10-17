@@ -1,6 +1,12 @@
-<?php return [
+<?php
 
-	/* -------------- Translations --------------*/
-	'en' => require_once __DIR__ . '/../i18n/en.php',
-	'de' => require_once __DIR__ . '/../i18n/de.php',
-];
+/* -------------- Translations --------------*/
+
+// every file in i18n/ is one panel language, named by its locale code
+$translations = [];
+
+foreach (glob(__DIR__ . '/../i18n/*.php') as $file) {
+	$translations[basename($file, '.php')] = require $file;
+}
+
+return $translations;
